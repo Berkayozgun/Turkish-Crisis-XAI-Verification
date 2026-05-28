@@ -1,0 +1,5 @@
+﻿Model,Best Parameters,Accuracy,Crisis F1-Score,Crisis Recall
+Logistic Regression,"{'C': 10, 'penalty': 'l2'}",96.39%,93.36%,91.09%
+Linear SVM,"{'C': 0.1, 'loss': 'squared_hinge'}",96.62%,93.76%,91.25%
+Random Forest,"{'max_depth': None, 'n_estimators': 200}",95.85%,92.12%,87.2%
+BERTurk (Cloud Baseline),Pre-trained + Fine-Tuned,96.0%,93.0%,94.0%
